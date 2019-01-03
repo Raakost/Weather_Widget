@@ -1,0 +1,79 @@
+.widget-container {
+    border-radius: 280px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('surfsupdude.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.weather-txt {
+    text-align: center;
+    margin-bottom: 0;
+    line-height: 1.8;
+    color: white;
+    text-shadow: 2px 1px #333333;
+}
+
+h3.weather-txt {
+    display: inline-block;
+    padding: 0px;
+}
+
+.center-image {
+    text-align: center;
+}
+
+.weather-txt-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.txt-x-small {
+    font-size: x-small;
+}
+
+.txt-medium {
+    font-size: larger;
+}
+
+.hr-shadow {
+    width: 70%;
+    border-bottom: 1px solid #ffffff;
+    background-color: #333333;
+    box-shadow: 2px 1px 0px 0px #333333;
+    height: 0px;
+    margin: 0 auto;
+}
+
+#WwSearch {
+    position: absolute;
+    top: 46px;
+    height: 30px;
+    width: 180px;
+    left: 60px;
+    display: none;
+    font-size: xx-small;
+}
+
+#WwSearch.visible {
+    display: block;
+    opacity: 0.9;
+    border: none;
+    border-radius: 1px;
+}
+
+#SearchBtn {
+    margin-left: -18px;
+    margin-right: 8px;
+    color: white;
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    padding: 0;
+}
